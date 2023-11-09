@@ -1,4 +1,4 @@
-odoo.define('web_debranding.dashboard', function (require) {
+odoo.define('odoo_all_debrand.dashboard', function (require) {
 "use strict";
 
     var dashboard = require('web_settings_dashboard');

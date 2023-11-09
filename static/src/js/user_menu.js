@@ -1,7 +1,7 @@
-odoo.define('web_debranding.UserMenu', function (require) {
+odoo.define('odoo_all_debrand.UserMenu', function (require) {
     "use strict";
 
-    require('web_debranding.base');
+    require('odoo_all_debrand.base');
     var session = require('web.session');
     var core = require('web.core');
     var _t = core._t;

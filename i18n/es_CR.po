@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * web_debranding
+# * odoo_all_debrand
 #
 # Translators:
 # Randall <randall_castro@me.com>, 2019
@@ -18,137 +18,137 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. module: web_debranding
+#. module: odoo_all_debrand
 #. openerp-web
-#: code:addons/web_debranding/static/src/xml/web.xml:27
+#: code:addons/odoo_all_debrand/static/src/xml/web.xml:27
 #, python-format
 msgid "(with assets)"
 msgstr ""
 
-#. module: web_debranding
-#: model:ir.model,name:web_debranding.model_ir_actions_act_window
+#. module: odoo_all_debrand
+#: model:ir.model,name:odoo_all_debrand.model_ir_actions_act_window
 msgid "Action Window"
 msgstr ""
 
-#. module: web_debranding
-#: model:ir.model.fields,field_description:web_debranding.field_res_users__odoobot_state
+#. module: odoo_all_debrand
+#: model:ir.model.fields,field_description:odoo_all_debrand.field_res_users__odoobot_state
 msgid "Bot Status"
 msgstr ""
 
-#. module: web_debranding
+#. module: odoo_all_debrand
 #. openerp-web
-#: code:addons/web_debranding/static/src/xml/web.xml:26
-#: code:addons/web_debranding/static/src/xml/web.xml:27
+#: code:addons/odoo_all_debrand/static/src/xml/web.xml:26
+#: code:addons/odoo_all_debrand/static/src/xml/web.xml:27
 #, python-format
 msgid "Developer mode"
 msgstr "Modo desarrollador"
 
-#. module: web_debranding
+#. module: odoo_all_debrand
 #. openerp-web
-#: code:addons/web_debranding/static/src/js/user_menu.js:36
-#: code:addons/web_debranding/static/src/js/user_menu.js:42
+#: code:addons/odoo_all_debrand/static/src/js/user_menu.js:36
+#: code:addons/odoo_all_debrand/static/src/js/user_menu.js:42
 #, python-format
 msgid "Developer mode is already activated"
 msgstr "El modo desarrollador ya se encuentra activado"
 
-#. module: web_debranding
+#. module: odoo_all_debrand
 #: selection:res.users,odoobot_state:0
 msgid "Disabled"
 msgstr ""
 
-#. module: web_debranding
+#. module: odoo_all_debrand
 #: selection:res.users,odoobot_state:0
 msgid "Idle"
 msgstr ""
 
-#. module: web_debranding
-#: model:ir.model,name:web_debranding.model_mail_message
+#. module: odoo_all_debrand
+#: model:ir.model,name:odoo_all_debrand.model_mail_message
 msgid "Message"
 msgstr "Mensaje"
 
-#. module: web_debranding
+#. module: odoo_all_debrand
 #: selection:res.users,odoobot_state:0
 msgid "Not initialized"
 msgstr ""
 
-#. module: web_debranding
+#. module: odoo_all_debrand
 #: selection:res.users,odoobot_state:0
 msgid "Onboarding attachement"
 msgstr ""
 
-#. module: web_debranding
+#. module: odoo_all_debrand
 #: selection:res.users,odoobot_state:0
 msgid "Onboarding command"
 msgstr ""
 
-#. module: web_debranding
+#. module: odoo_all_debrand
 #: selection:res.users,odoobot_state:0
 msgid "Onboarding emoji"
 msgstr ""
 
-#. module: web_debranding
+#. module: odoo_all_debrand
 #: selection:res.users,odoobot_state:0
 msgid "Onboarding ping"
 msgstr ""
 
-#. module: web_debranding
+#. module: odoo_all_debrand
 #. openerp-web
-#: code:addons/web_debranding/static/src/js/native_notifications.js:15
+#: code:addons/odoo_all_debrand/static/src/js/native_notifications.js:15
 #, python-format
 msgid "Permission denied"
 msgstr ""
 
-#. module: web_debranding
-#: model:ir.model,name:web_debranding.model_publisher_warranty_contract
+#. module: odoo_all_debrand
+#: model:ir.model,name:odoo_all_debrand.model_publisher_warranty_contract
 #, fuzzy
 msgid "Publisher Warranty Contract"
 msgstr "publisher_warranty.contract"
 
-#. module: web_debranding
-#: code:addons/web_debranding/models/ir_config_parameter.py:12
-#: code:addons/web_debranding/models/ir_config_parameter.py:13
+#. module: odoo_all_debrand
+#: code:addons/odoo_all_debrand/models/ir_config_parameter.py:12
+#: code:addons/odoo_all_debrand/models/ir_config_parameter.py:13
 #, python-format
 msgid "Software"
 msgstr "Software"
 
-#. module: web_debranding
-#: model:ir.model,name:web_debranding.model_ir_config_parameter
+#. module: odoo_all_debrand
+#: model:ir.model,name:odoo_all_debrand.model_ir_config_parameter
 msgid "System Parameter"
 msgstr ""
 
-#. module: web_debranding
-#: model:ir.model,name:web_debranding.model_ir_translation
+#. module: odoo_all_debrand
+#: model:ir.model,name:odoo_all_debrand.model_ir_translation
 #, fuzzy
 msgid "Translation"
 msgstr "ir.translation"
 
-#. module: web_debranding
-#: model:ir.model,name:web_debranding.model_res_users
+#. module: odoo_all_debrand
+#: model:ir.model,name:odoo_all_debrand.model_res_users
 msgid "Users"
 msgstr ""
 
-#. module: web_debranding
-#: model:ir.model,name:web_debranding.model_ir_ui_view
+#. module: odoo_all_debrand
+#: model:ir.model,name:odoo_all_debrand.model_ir_ui_view
 msgid "View"
 msgstr ""
 
-#. module: web_debranding
+#. module: odoo_all_debrand
 #. openerp-web
-#: code:addons/web_debranding/static/src/js/native_notifications.js:15
+#: code:addons/odoo_all_debrand/static/src/js/native_notifications.js:15
 #, python-format
 msgid "Yay, push notifications are enabled!"
 msgstr ""
 
-#. module: web_debranding
+#. module: odoo_all_debrand
 #. openerp-web
-#: code:addons/web_debranding/static/src/xml/web.xml:8
+#: code:addons/odoo_all_debrand/static/src/xml/web.xml:8
 #, python-format
 msgid "Your permission is required to"
 msgstr "Se requieren permisos para"
 
-#. module: web_debranding
+#. module: odoo_all_debrand
 #. openerp-web
-#: code:addons/web_debranding/static/src/xml/web.xml:9
+#: code:addons/odoo_all_debrand/static/src/xml/web.xml:9
 #, python-format
 msgid "enable desktop notifications"
 msgstr "Habilitar notificaciones de escritorio"

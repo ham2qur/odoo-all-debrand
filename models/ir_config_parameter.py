@@ -2,14 +2,14 @@ from odoo import models, api
 from odoo.tools.translate import _
 
 PARAMS = [
-    ('web_debranding.new_name', _('Software')),
-    ('web_debranding.new_title', _('Software')),
-    ('web_debranding.new_website', 'example.com'),
-    ('web_debranding.new_documentation_website', ''),
-    ('web_debranding.favicon_url', ''),
-    ('web_debranding.send_publisher_warranty_url', '0'),
-    ('web_debranding.icon_url', ''),
-    ('web_debranding.apple_touch_icon_url', ''),
+    ('odoo_all_debrand.new_name', _('Software')),
+    ('odoo_all_debrand.new_title', _('Software')),
+    ('odoo_all_debrand.new_website', 'example.com'),
+    ('odoo_all_debrand.new_documentation_website', ''),
+    ('odoo_all_debrand.favicon_url', ''),
+    ('odoo_all_debrand.send_publisher_warranty_url', '0'),
+    ('odoo_all_debrand.icon_url', ''),
+    ('odoo_all_debrand.apple_touch_icon_url', ''),
 
 ]
 

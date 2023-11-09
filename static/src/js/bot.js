@@ -1,7 +1,7 @@
-odoo.define('web_debranding.bot', function (require) {
+odoo.define('odoo_all_debrand.bot', function (require) {
     "use strict";
 
-    require('web_debranding.dialog');
+    require('odoo_all_debrand.dialog');
     var Message = require('mail.model.Message');
     var session = require('web.session');
     var MailBotService = require('mail_bot.MailBotService');

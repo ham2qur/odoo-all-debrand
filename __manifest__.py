@@ -1,13 +1,11 @@
 {
     'name': "Backend debranding",
     'version': '13.0.1.0.28',
-    'author': 'NinasSofts',
+    'author': 'Hammad Hussain Qureshi',
     'license': 'LGPL-3',
     'category': 'Debranding',
-    'images': ['images/web_debranding.png'],
-    'website': 'https://www.dzitechnology.com',
-    'price': 149.00,
-    'currency': 'EUR',
+    'images': ['images/odoo_all_debrand.png'],
+    'website': '',
     'depends': [
         'web',
         'im_livechat',
@@ -27,14 +25,14 @@
     'installable': True,
     'assets': {
         'web.assets_backend': [
-            "/web_debranding/static/src/css/web.css",
-            "/web_debranding/static/src/js/base.js",
-            "/web_debranding/static/src/js/dialog.js",
-            "/web_debranding/static/src/js/dashboard.js",
-            "/web_debranding/static/src/js/field_upgrade.js",
-            "/web_debranding/static/src/js/native_notifications.js",
-            "/web_debranding/static/src/js/bot.js",
-            "/web_debranding/static/src/js/user_menu.js",
+            "/odoo_all_debrand/static/src/css/web.css",
+            "/odoo_all_debrand/static/src/js/base.js",
+            "/odoo_all_debrand/static/src/js/dialog.js",
+            "/odoo_all_debrand/static/src/js/dashboard.js",
+            "/odoo_all_debrand/static/src/js/field_upgrade.js",
+            "/odoo_all_debrand/static/src/js/native_notifications.js",
+            "/odoo_all_debrand/static/src/js/bot.js",
+            "/odoo_all_debrand/static/src/js/user_menu.js",
         ],
     }
 }

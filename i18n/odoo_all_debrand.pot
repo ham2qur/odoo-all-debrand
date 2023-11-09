@@ -1,25 +1,17 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * odoo_all_debrand
+#	* odoo_all_debrand
 #
-# Translators:
-# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-08 15:03+0000\n"
-"PO-Revision-Date: 2017-12-08 15:03+0000\n"
-"Last-Translator: "
-"Language-Team: "
-"teams/76080/ru/)\n"
-"Language: ru\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
-"%100>=11 && n%100<=14)? 2 : 3);\n"
+"Plural-Forms: \n"
 
 #. module: odoo_all_debrand
 #. openerp-web
@@ -40,11 +32,18 @@ msgstr ""
 
 #. module: odoo_all_debrand
 #. openerp-web
+#: code:addons/odoo_all_debrand/static/src/js/bot.js:33
+#, python-format
+msgid "Bot has a request"
+msgstr ""
+
+#. module: odoo_all_debrand
+#. openerp-web
 #: code:addons/odoo_all_debrand/static/src/xml/web.xml:26
 #: code:addons/odoo_all_debrand/static/src/xml/web.xml:27
 #, python-format
 msgid "Developer mode"
-msgstr "Режим разработчика"
+msgstr ""
 
 #. module: odoo_all_debrand
 #. openerp-web
@@ -52,11 +51,16 @@ msgstr "Режим разработчика"
 #: code:addons/odoo_all_debrand/static/src/js/user_menu.js:42
 #, python-format
 msgid "Developer mode is already activated"
-msgstr "Режим разработчика уже активирован"
+msgstr ""
 
 #. module: odoo_all_debrand
 #: selection:res.users,odoobot_state:0
 msgid "Disabled"
+msgstr ""
+
+#. module: odoo_all_debrand
+#: model:ir.model,name:odoo_all_debrand.model_mail_channel
+msgid "Discussion Channel"
 msgstr ""
 
 #. module: odoo_all_debrand
@@ -72,6 +76,13 @@ msgstr ""
 #. module: odoo_all_debrand
 #: selection:res.users,odoobot_state:0
 msgid "Not initialized"
+msgstr ""
+
+#. module: odoo_all_debrand
+#. openerp-web
+#: code:addons/odoo_all_debrand/static/src/js/bot.js:32
+#, python-format
+msgid "OdooBot has a request"
 msgstr ""
 
 #. module: odoo_all_debrand
@@ -107,8 +118,8 @@ msgid "Publisher Warranty Contract"
 msgstr ""
 
 #. module: odoo_all_debrand
-#: code:addons/odoo_all_debrand/models/ir_config_parameter.py:12
 #: code:addons/odoo_all_debrand/models/ir_config_parameter.py:13
+#: code:addons/odoo_all_debrand/models/ir_config_parameter.py:14
 #, python-format
 msgid "Software"
 msgstr ""
@@ -153,3 +164,4 @@ msgstr ""
 #, python-format
 msgid "enable desktop notifications"
 msgstr ""
+

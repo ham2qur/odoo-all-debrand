@@ -15,14 +15,14 @@ By default the module replaces ``Odoo`` to ``Software``.
 * Switch to Developer mode
 * Open ``[[ General Settings ]] >> Technical >> Parameters >> System Parameters`` and modify:
 
-  * ``web_debranding.new_title`` (put space in *Value field* if you don't need Brand in Title)
-  * ``web_debranding.new_name`` (your Brand)
-  * ``web_debranding.new_website`` (your website)
-  * ``web_debranding.new_documentation_website`` (website with documentation instead of official one)
-  * ``web_debranding.favicon_url``
-  * ``web_debranding.send_publisher_warranty_url`` - set 0 to disable server requests to odoo.com and 1 otherwise (useful for enterprise contractors). Works only for non-enterprise versions of odoo, check `note <https://www.odoo.com/apps/modules/13.0/web_debranding/#enterprise-users-notice>`__ below.
-  * ``web_debranding.icon_url`` - icon for mobile devices *recommended size :192x192*
-  * ``web_debranding.apple_touch_icon_url`` - icon for IOS Safari *recommended size :152x152*
+  * ``odoo_all_debrand.new_title`` (put space in *Value field* if you don't need Brand in Title)
+  * ``odoo_all_debrand.new_name`` (your Brand)
+  * ``odoo_all_debrand.new_website`` (your website)
+  * ``odoo_all_debrand.new_documentation_website`` (website with documentation instead of official one)
+  * ``odoo_all_debrand.favicon_url``
+  * ``odoo_all_debrand.send_publisher_warranty_url`` - set 0 to disable server requests to odoo.com and 1 otherwise (useful for enterprise contractors). Works only for non-enterprise versions of odoo, check `note <https://www.odoo.com/apps/modules/13.0/odoo_all_debrand/#enterprise-users-notice>`__ below.
+  * ``odoo_all_debrand.icon_url`` - icon for mobile devices *recommended size :192x192*
+  * ``odoo_all_debrand.apple_touch_icon_url`` - icon for IOS Safari *recommended size :152x152*
 
 *Note. More user friendly way to configure the module is available in* `Brand Kit <https://apps.odoo.com/apps/modules/11.0/theme_kit/>`__.
 
@@ -50,7 +50,7 @@ Auto-debrand new databases
 
 To automatically install this module for every new databases set 'auto_install': True in **__manifest__.py** files of following modules:
 
-* ``web_debranding``
+* ``odoo_all_debrand``
 * ``ir_rule_protected``
 * ``access_restricted``
 * ``access_apps``

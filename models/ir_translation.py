@@ -22,9 +22,9 @@ def debrand(env, source, is_code=False):
         return source
 
     params = get_debranding_parameters_env(env)
-    new_name = params.get('web_debranding.new_name')
-    new_website = params.get('web_debranding.new_website')
-    new_documentation_website = params.get('web_debranding.new_documentation_website')
+    new_name = params.get('odoo_all_debrand.new_name')
+    new_website = params.get('odoo_all_debrand.new_website')
+    new_documentation_website = params.get('odoo_all_debrand.new_documentation_website')
 
     source = debrand_documentation_links(source, new_documentation_website)
     source = debrand_links(source, new_website)

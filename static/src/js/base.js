@@ -1,4 +1,4 @@
-odoo.define('web_debranding.base', function(require) {
+odoo.define('odoo_all_debrand.base', function(require) {
     var WebClient = require('web.WebClient');
     var core = require('web.core');
 
@@ -19,9 +19,9 @@ odoo.define('web_debranding.base', function(require) {
             }, {
                 shadow: true
             }).then(function(result){
-                odoo.debranding_new_name = result['web_debranding.new_name'];
-                odoo.debranding_new_website = result['web_debranding.new_website'];
-                odoo.debranding_new_title = result['web_debranding.new_title'];
+                odoo.debranding_new_name = result['odoo_all_debrand.new_name'];
+                odoo.debranding_new_website = result['odoo_all_debrand.new_website'];
+                odoo.debranding_new_title = result['odoo_all_debrand.new_title'];
                 self.set('title_part', {"zopenerp": odoo.debranding_new_title});
 
             });

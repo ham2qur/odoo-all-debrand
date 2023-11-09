@@ -9,7 +9,7 @@ from .ir_translation import debrand
 
 _logger = logging.getLogger(__name__)
 
-MODULE = '_web_debranding'
+MODULE = '_odoo_all_debrand'
 
 
 class MailMessage(models.Model):

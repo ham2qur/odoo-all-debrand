@@ -13,7 +13,7 @@ class IrActionsActWindowDebranding(models.Model):
             fields=fields, load=load)
         if not fields or 'help' in fields:
             params = self.env['ir.config_parameter'].get_debranding_parameters()
-            new_name = params.get('web_debranding.new_name')
+            new_name = params.get('odoo_all_debrand.new_name')
             for res in results:
                 if isinstance(res, dict) and res.get('help'):
                     res['help'] = res['help'].replace('Odoo', new_name)

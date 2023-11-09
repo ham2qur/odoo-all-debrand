@@ -21,9 +21,9 @@ class BinaryCustom(Binary):
     ], type='http', auth="none")
     def company_logo(self, dbname=None, **kw):
         imgname = 'logo.png'
-        default_logo_module = 'web_debranding'
+        default_logo_module = 'odoo_all_debrand'
         if request.session.db:
-            default_logo_module = request.env['ir.config_parameter'].sudo().get_param('web_debranding.default_logo_module')
+            default_logo_module = request.env['ir.config_parameter'].sudo().get_param('odoo_all_debrand.default_logo_module')
         placeholder = functools.partial(get_module_resource, default_logo_module, 'static', 'src', 'img')
         uid = None
         if request.session.db:

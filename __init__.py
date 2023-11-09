@@ -3,7 +3,7 @@ from . import controllers
 
 from odoo import SUPERUSER_ID, api
 
-MODULE = '_web_debranding'
+MODULE = '_odoo_all_debrand'
 
 
 def uninstall_hook(cr, registry):

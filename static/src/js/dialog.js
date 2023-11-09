@@ -1,6 +1,6 @@
-odoo.define('web_debranding.dialog', function(require) {
+odoo.define('odoo_all_debrand.dialog', function(require) {
 
-    require('web_debranding.base');
+    require('odoo_all_debrand.base');
     var core = require('web.core');
     var QWeb = core.qweb;
     var session = require('web.session');
