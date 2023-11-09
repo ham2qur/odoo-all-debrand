@@ -1,6 +1,6 @@
 {
-    'name': "Backend debranding",
-    'version': '13.0.1.0.28',
+    'name': "Odoo All Debranding",
+    'version': '15.0',
     'author': 'Hammad Hussain Qureshi',
     'license': 'LGPL-3',
     'category': 'Debranding',
